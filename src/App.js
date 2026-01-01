@@ -1,6 +1,8 @@
 import './App.css'
 
-//This is the list (static data) used in the application. You can move it to any component if needed.
+import VisitCountries from './components/VisitCountries'
+
+// This is the list (static data) used in the application. You can move it to any component if needed.
 
 const initialCountriesList = [
   {
@@ -75,7 +77,6 @@ const initialCountriesList = [
   },
 ]
 
-// Replace your code here
-const App = () => <h1>Hello World</h1>
+const App = () => <VisitCountries initialCountriesList={initialCountriesList} />
 
 export default App
