@@ -54,7 +54,7 @@ class VisitCountries extends Component {
             <p className="no-visited-countries">No Countries Visited Yet!</p>
           </div>
         ) : (
-          <ul className="countries-list">
+          <ul className="visited-countries-list">
             {visitedCountriesList.map(eachCountry => (
               <VisitedCountriesList
                 key={eachCountry.id}

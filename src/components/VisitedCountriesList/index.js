@@ -8,7 +8,7 @@ const VisitedCountriesList = props => {
     onRemove(id)
   }
   return (
-    <li className="country-item">
+    <li className="visited-country-item">
       <img src={imageUrl} alt="thumbnail" className="country-flag-img" />
       <div className="name-btn-container">
         <p className="country-name">{name}</p>
